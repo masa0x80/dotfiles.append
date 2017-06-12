@@ -11,10 +11,6 @@ node.reverse_merge!(
   perl: {
     version: '5.22.1'
   },
-  remi_repo: {
-    rpm_url: 'http://rpms.famillecollet.com/enterprise/remi-release-7.rpm',
-    package: 'remi-release'
-  },
   vim: {
     version: '8.0',
     make_options: '--enable-fail-if-missing --enable-fontset --enable-cscope --enable-multibyte --enable-rubyinterp --enable-luainterp --with-x=no --disable-gui --disable-xim --with-features=huge --disable-selinux --disable-gpm --disable-darwin'
